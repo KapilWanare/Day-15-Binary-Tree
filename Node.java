@@ -1,9 +1,9 @@
-public class INode<T extends Comparable<T>> {
+public class Node<T extends Comparable<T>> {
     T data;
-    INode<T> NextRN;
-    INode<T> NextLN;
+    Node<T> NextRN;
+    Node<T> NextLN;
 
-    public INode(T data){
+    public Node(T data){
         this.data = data;
     }
 }
